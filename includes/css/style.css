@@ -1,0 +1,29 @@
+#main{
+  background-color: #e3e3e3;
+  height: 16.5%;
+  padding-bottom: 10%;
+  width:100%;
+}
+
+/* for main block */
+
+.navbar-header{
+  height: 100px;
+  text-align: right;
+}
+/* for header */
+.navbar-brand{
+  display: inline-block;
+}
+/* for logo */
+
+#courses{
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+/* header options */
+#try{
+  text-align: right;
+  padding-left: 90%;
+}
