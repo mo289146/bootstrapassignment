@@ -1,10 +1,12 @@
-#main{
+body{
+  background-color: black;
+  }
+
+  #main{
   background-color: #e3e3e3;
   height: 16.5%;
-  padding-bottom: 10%;
   width:100%;
 }
-
 /* for main block */
 
 .navbar-header{
@@ -12,18 +14,36 @@
   text-align: right;
 }
 /* for header */
-.navbar-brand{
+
+.navbar-brand {
+float: left;
+  padding: 15px 15px;
   display: inline-block;
 }
 /* for logo */
 
+#jumbot{
+
+    position: relative;
+    background: #000 url("/images/Logo.png") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+/*for jumbotron*/
+
 #courses{
   font-size: 25px;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
+/* for dropdown*/
 
-/* header options */
-#try{
-  text-align: right;
-  padding-left: 90%;
+
+/* footer options */
+footer{
+  background:#333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
 }

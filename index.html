@@ -1,26 +1,37 @@
 <html>
   <head>
     <title>My First Assignment</title>
+    <!--title of the page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3."/>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
+  <!--end of head tag-->
   <body>
+    <!--start of body tag-->
     <div class="container" id="main">
-
+      <!--container class starts-->
       <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-      <!--  <div class="container-fluid">
+          <!--nav bar starts-->
+       <div class="container">
           <div class="navbar-header">
-          <a class="navbar-brand" href="/"><img height="85" width="120" src="images/Logo.png" alt="My Institute"></a>
-        </div>-->
+            <!--navbar header starts-->
+          <a class="navbar-brand" href="/"><img height="30" width="70" src="images/Logo1.png" alt="My Institute"></a>
+          <!--brand values given-->
+        </div>
+        <!--end of navbar-brand-->
 
           <!--<div class="nav-collapse collapse navbar-responsive-collapse">-->
             <ul class="nav navbar-nav" id="courses">
+              <!--list of nav-->
               <li><a href="#">Home</a></li>
 
               <li class="dropdown">
+                <!--list of dropdown items-->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<strong class="caret"></strong></a>
 
                 <ul class="dropdown-menu">
@@ -53,16 +64,124 @@
                     <button type="submit" class="btn btn-default">Submit</button>
               </form>
     </nav>
-
+<div class="cols-12">
   <div class="jumbotron" id="jumbot">
-    <a class="navbar-brand" href="/"><img id="image"  src="images/Logo.png" alt="My Bars"></a>
+<!--creation of a jumbotron-->
+    <a class="navbar-brand" href="/"><img height="150px" margin-top="0" padding="10px" src="images/Logo1.png" alt="My Bars"></a>
+    <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span></div>
     <h2>THE BAR'S OPEN</h2>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Try More</a></p>
+    <p><a class="btn btn-primary btn-small" href="#" target="_blank" role="button">Try More</a></p>
+</div><!--end of jumbotron-->
+<div class="col-12">
+  <div class="container">
+    <!--callout starts-->
+  <div class="well">
+    <div class="page-header">
+      <h1>A Fancy and Nice Bar</h1>
+    </div>
+    <p class="lead">I mean, what is prison, really, except a good bar without the liquor?</p>
+    <a href=" " class="btn btn-large btn-primary">Click Here</a>
+    <a href=" " class="btn btn-large btn-link">or click this link</a>
   </div>
+</div><!--end of callout-->
 </div>
-<footer>
-  <h5> </h5>
-</footer>
+</div>
 
+<div class="col-sm-12 feature">
+  <div class="container">
+  <h2> More Features </h2>
+  <p class="lead"> Here are the facilities served by our company</p>
+</div>
+</div>
+
+<div class="col-sm-4 feature">
+    <div class="panel"><!--panel starts-->
+				<div class="panel-heading"><!--panelheading starts-->
+						<h3 class="panel-title">Parking Lot</h3>
+				</div>
+					<!-- end panel-heading -->
+
+				<img src="images/parking.png" alt="CSS3" class="img-circle">
+				<p>A parking lot attendant who's a guy makes a lot more money than a child-care attendant who's a woman.</p>
+				<a href="#" target="_blank" class="btn btn-success btn-info">More</a>
+		</div>
+    <!--end panel-->
+  </div>
+
+<div class="col-sm-4 feature" id="panel2">
+  <div class="panel"><!--panel starts-->
+        <div class="panel-heading"><!-- starts panel-heading -->
+        		<h3 class="panel-title">Room Delivery</h3>
+        </div>
+        					<!-- end panel-heading -->
+
+        <img src="images/Delivery.png" alt="CSS3" class="img-circle">
+        <p>We use competitive markets to arrange for delivery of our drinks supply.</p>
+        <a href="#" target="_blank" class="btn btn-danger btn-block">Try it!</a>
+    </div><!--end panel-->
+  </div>
+
+  <div class="col-sm-4 feature">
+      <div class="panel"><!--panel starts-->
+          <div class="panel-heading"><!-- starts panel-heading -->
+          		<h3 class="panel-title">Disco-Theatre</h3>
+          </div>
+          					<!-- end panel-heading -->
+
+          <img src="images/disco.jpg" alt="CSS3" class="img-circle">
+          <p>Disco is just pop music you can dance to.Disco is music for dancing, and people will always want to dance.</p>
+          <a href="#" target="_blank" class="btn btn-danger btn-success">Enjoy</a>
+      </div><!--end panel-->
+    </div>
+
+    <div class="row" id="moreInfo">
+      <!--MoreInfo starts-->
+			<div class="col-sm-6">
+				<h3>More About Us</h3>
+
+							<h4><span class="glyphicon glyphicon-map-marker"></span> Bangalore Location</h4>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7778.339164108593!2d77.63523760000001!3d12.896814800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1467010079232" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+						<!-- end modal-header -->
+
+						<div class="tab-pane" id="tab2">
+							<h4>The Spirit Zone <small>in Bangalore </small></h4>
+							<img src="images/Bang.jpg" class="thumbnail pull-left" alt="Career image">
+							</div>
+										<!-- end tab-pane -->
+
+
+			</div>
+			<!-- end moreInfo -->
+
+		</div>
+		<!-- end container -->
+
+<div class="footer" id="foot">
+  <!--footer starts-->
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-3">
+        <h6>copyright &copy; 2014 {Budwieser}</h6>
+      </div>
+      <div class="col-sm-3">
+        <h6>About Us</h6>
+        <p>When you say Budweiser, you’ve said it all. For all you do, this Bud’s for you. The Genuine Article. The King of Beers.</p>
+</div>
+<div class="col-sm-3" id="con-footer">
+  <h6>Follow Us</h6>
+      <a href="#"><img src="images/facebook.png"  alt="your logo" height="45px" class="img-circle"/></a>
+      <a href="#"><img src="images/twitter.png"  alt="your logo" height="45px" class="img-circle" /></a>
+</div>
+    <div class="col-sm-3">
+          <h6>Coded with<span class="glyphicon glyphicon-heart"></span>by Abbas</h6>
+				</div>
+
+</div>
+</div>
+</div>
+<!--footer ends-->
+</div>
 </body>
+<!--body ends-->
 </html>
